@@ -76,8 +76,40 @@ p {
 .banner-vertically {
   width: 100px;
   height: 100vh;
-  background-color: white;
+  background-color: #383838;
   opacity: 0.6;
   position: absolute;
   top: 0;
+}
+
+.banner-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.icon-style {
+  width: 40%;
+  margin: 8px 0px;
+}
+
+.arrow-top {
+  width: 25%;
+  transform: rotate(-90deg);
+}
+
+.arrow-bottom {
+  width: 25%;
+  transform: rotate(90deg);
+
+}
+
+.prev {
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+
+
 }

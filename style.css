@@ -86,30 +86,38 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100%;
+  padding-top: 12px;
 }
 
 .icon-style {
   width: 40%;
-  margin: 8px 0px;
+  margin: 12px 0px;
 }
 
 .arrow-top {
   width: 25%;
   transform: rotate(-90deg);
+  margin-top: 100px;
 }
 
 .arrow-bottom {
   width: 25%;
   transform: rotate(90deg);
+  margin-bottom: 200px;
 
 }
 
-.prev {
-  writing-mode: sideways-lr;
+.vertical-text {
+/*   writing-mode: sideways-lr;
   -webkit-writing-mode: sideways-lr;
-  -ms-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr; */
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
 
+.number-accentued {
+  font-size: 48px;
+  font-weight: 900;
 
 }
